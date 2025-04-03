@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harlem Coding Tutors</title>
+
+    <style>
+        body {
+            background-color: white;
+            text-align: center; 
+        }
+
+        h1 {
+            color: rgb(64, 62, 185);
+            font-family: 'Roboto', sans-serif; font-weight: bold; 
+            font-size: 300%;
+        }
+
+        p {
+            color: rgb(39, 39, 39);
+            font-family: sans-serif;
+            font-size: 100%;
+            line-height: 2;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 100%;
+            height: 300px;
+            margin-top: 100px;
+        }
+
+        .rectangle {
+            width: 80%;
+            height: 300px;
+            background-color: rgb(54, 52, 129);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+
+        button {
+            font-size: 25px;
+            background-color: white;
+            color: rgb(39, 39, 39);
+            border-radius: 25px;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Harlem Coding Tutors</h1>
+    
+    <p>Harlem Coding Tutors is a nonprofit organization dedicated to empowering students in Harlem by providing high-quality,<br>
+       affordable, and accessible coding education. Our mission is to bridge the digital divide and ensure that students,<br>
+        regardless of their background, have the opportunity to develop essential programming skills that can open doors to future careers in technology. 
+    </p>
+
+    <img src="https://www.raspberrypi.org/app/uploads/2022/05/CoderDojo-CCW-07.jpg" >
+
+    <div class="container">
+        <div class="rectangle">
+            <div class="button-container">
+                <button onclick="location.href='http://127.0.0.1:8000/about'">About Us</button>
+                <button onclick="location.href='https://calendar.app.google/N7ZT2Qedgr9p4o6M9'">Book a Lesson</button>
+                <button onclick ="location.href='http://127.0.0.1:8000/form'">Register as a Tutor</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
